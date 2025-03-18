@@ -1,0 +1,8 @@
+
+
+CFLAGS= -g -03
+
+all: tokenizer
+
+tokenizer: $(OBJS)
+	cc -o tokenizer $(CFLAGS) 

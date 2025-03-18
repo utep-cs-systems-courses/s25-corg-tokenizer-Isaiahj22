@@ -1,7 +1,6 @@
 #ifndef _TOKENIZER_
 #define _TOKENIZER_
 
-
 /* Return true (non-zero) if c is a whitespace characer
    ('\t' or ' ').  
    Zero terminators are not printable (therefore false) */
@@ -25,7 +24,7 @@ int count_tokens(char *str);
 
 /* Returns a fresly allocated new zero-terminated string 
    containing <len> chars from <inStr> */
-char *copy_str(char *inStr, short len);
+char *copy_str(char *inStr, int len);
 
 /* Returns a freshly allocated zero-terminated vector of freshly allocated 
    space-separated tokens from zero-terminated str.
